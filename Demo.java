@@ -53,7 +53,8 @@ public class Demo {
         for (PolicyHolder policyHolder : policy.getPolicyHolders()) {
             System.out.println(policyHolder);
         }
-
+        
+        System.out.println("Num policies" + policy.numPolicies());
         System.out.println("Smokers " + smokers);
         System.out.println("Non-smokers  " + nonsmokers);
 

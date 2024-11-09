@@ -36,6 +36,12 @@ public class Policy {
         return policyHolders;
     }
 
+
+    
+    public int numPolicies() {
+        return INSTANCES_CREATED;
+    }
+
     /**
      * Returns the policy information in a formatted string.
      * @return formatted policy details
